@@ -14,7 +14,6 @@ Principais detalhes sobre o projeto
 			
 	* Bibliotecas OpenGL & ABCg
 	* Linguagem de programação: C++
-  * 
   
 
 # *Como utilizar*
