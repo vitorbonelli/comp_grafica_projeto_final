@@ -33,9 +33,7 @@ $ ./build/bin/midas/midas
 
 **Dragão Midas**
 
-Este projeto é representado por dois fatores principais, o primeiro é a forma na qual o Dragão foi modelado e a segunda são as interações para este modelo 3D
-
-<br> A partir da linha 23009,  do arquivo dragon_vrip_res3.ply, podemos encontrar como foram criados os triangulos que geraram o modelo 3D:
+Este projeto é representado por dois fatores principais, o primeiro é a forma na qual o Dragão foi modelado e a segunda são as interações para este modelo 3D. A partir da linha 23009, do arquivo dragon_vrip_res3.ply, podemos encontrar como foram criados os triangulos que geraram o modelo 3D:
 ```
       (...)
       3 0 2 1 
