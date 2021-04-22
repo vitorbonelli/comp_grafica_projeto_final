@@ -1,6 +1,10 @@
 # *Projeto Final - Dragão Midas*
 
-Neste projeto focamos em criar um programa interativo semelhante ao coelho com interação de preenchimento apresentado no curso. A partir de um modelo de objeto (O dragão, http://graphics.stanford.edu/data/3Dscanrep/dragon.jpg) encontrado no site http://graphics.stanford.edu/data/3Dscanrep/ e uma textura "Black Metal" disponibilizada no site https://texturebox.com/black-metal-texture-001, a qual readaptamos com a coloração do objeto para dar o aspecto metálico requerido, e deixamos à disposição do usuário o preenchimento e despreenchimento das aproximadas 70000 vértices do Dragão, alem do manuseio de translação do objeto.
+Neste projeto focamos em criar um programa interativo semelhante ao coelho com interação de preenchimento apresentado no curso. 
+<br>
+Escolhemos um modelo de objeto de um dragão e adicionamos ao mesmo uma textura "Black Metal", na qual readaptamos com a coloração do objeto para dar o aspecto metálico requerido. Por fim deixamos à disposição do usuário o preenchimento e despreenchimento das aproximadas 70000 vértices do Dragão, alem do manuseio de translação do objeto.
+
+
 
 Nome e RA dos desenvolvedores:
 			
@@ -14,6 +18,11 @@ Principais detalhes sobre o projeto
 			
 	* Bibliotecas OpenGL & ABCg
 	* Linguagem de programação: C++
+	
+	Fontes:
+	*  Imagem do dragão 3D: http://graphics.stanford.edu/data/3Dscanrep/dragon.jpg
+	*  Demais modelos e inspirações: http://graphics.stanford.edu/data/3Dscanrep/ 
+	*  Textura "Black Metal": https://texturebox.com/black-metal-texture-001
   
 
 # *Como utilizar*
