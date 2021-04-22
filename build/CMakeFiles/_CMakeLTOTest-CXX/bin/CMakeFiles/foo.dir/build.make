@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src
+CMAKE_SOURCE_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin
+CMAKE_BINARY_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/foo.dir/depend.make
@@ -61,17 +61,17 @@ include CMakeFiles/foo.dir/progress.make
 include CMakeFiles/foo.dir/flags.make
 
 CMakeFiles/foo.dir/foo.cpp.o: CMakeFiles/foo.dir/flags.make
-CMakeFiles/foo.dir/foo.cpp.o: /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/foo.dir/foo.cpp.o"
-	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/foo.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+CMakeFiles/foo.dir/foo.cpp.o: /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/foo.dir/foo.cpp.o"
+	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/foo.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
 
 CMakeFiles/foo.dir/foo.cpp.i: cmake_force
 	@echo "Preprocessing CXX source to CMakeFiles/foo.dir/foo.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp > CMakeFiles/foo.dir/foo.cpp.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp > CMakeFiles/foo.dir/foo.cpp.i
 
 CMakeFiles/foo.dir/foo.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/foo.dir/foo.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp -o CMakeFiles/foo.dir/foo.cpp.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp -o CMakeFiles/foo.dir/foo.cpp.s
 
 # Object files for target foo
 foo_OBJECTS = \
@@ -83,7 +83,7 @@ foo_EXTERNAL_OBJECTS =
 libfoo.a: CMakeFiles/foo.dir/foo.cpp.o
 libfoo.a: CMakeFiles/foo.dir/build.make
 libfoo.a: CMakeFiles/foo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfoo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfoo.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=$(VERBOSE)
 
@@ -97,6 +97,6 @@ CMakeFiles/foo.dir/clean:
 .PHONY : CMakeFiles/foo.dir/clean
 
 CMakeFiles/foo.dir/depend:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/src /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
 .PHONY : CMakeFiles/foo.dir/depend
 

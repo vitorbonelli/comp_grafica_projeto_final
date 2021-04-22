@@ -6,5 +6,5 @@ CXX_FLAGS = -g -flto -fno-fat-lto-objects   -std=gnu++2a
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt 
+CXX_INCLUDES = -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt 
 

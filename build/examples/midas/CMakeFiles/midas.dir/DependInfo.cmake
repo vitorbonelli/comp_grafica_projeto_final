@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/main.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/main.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/model.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/openglwindow.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/trackball.cpp.o"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/main.cpp" "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/main.cpp.o"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.cpp" "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/model.cpp.o"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/openglwindow.cpp" "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/openglwindow.cpp.o"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.cpp" "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/trackball.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,9 +25,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake"
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
-  "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
+  "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
