@@ -49,8 +49,8 @@ void OpenGLWindow::initializeGL() {
   }
 
   // Load default model
-  loadModel(getAssetsPath() + "roman_lamp.obj");
-  m_mappingMode = 3;  // "From mesh" option
+  loadModel(getAssetsPath() + "dragon.obj");
+  //m_mappingMode = 3;  // "From mesh" option
 
   // Initial trackball spin
   m_trackBallModel.setAxis(glm::normalize(glm::vec3(1, 1, 1)));
@@ -58,8 +58,8 @@ void OpenGLWindow::initializeGL() {
 }
 
 void OpenGLWindow::loadModel(std::string_view path) {
-  m_model.loadDiffuseTexture(getAssetsPath() + "maps/pattern.png");
-  m_model.loadNormalTexture(getAssetsPath() + "maps/pattern_normal.png");
+  m_model.loadDiffuseTexture(getAssetsPath() + "maps/black metal 001_roughness.png");
+  //m_model.loadNormalTexture(getAssetsPath() + "maps/black metal 001_normal.png");
   m_model.loadFromFile(path);
   m_model.setupVAO(m_programs.at(m_currentProgramIndex));
   m_trianglesToDraw = m_model.getNumTriangles();
