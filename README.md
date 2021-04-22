@@ -1,6 +1,6 @@
 # *Projeto Final - Dragão Midas*
 
-Neste projeto focamos em criar um programa interativo inspirado no coelho 3D apresentado no tópico "Espaços e geometria", onde podemos utilizar da interação de preenchimento dos vértices. Escolhemos para o modelo de objeto 3D um dragão e adicionamos ao mesmo uma textura "Black Metal", na qual readaptamos com a coloração do objeto para dar o aspecto metálico requerido. Por fim deixamos à disposição do usuário o preenchimento e despreenchimento das aproximadas 70000 vértices do Dragão, alem do manuseio de translação do objeto.
+Neste projeto focamos em criar um programa interativo inspirado no coelho 3D apresentado no tópico "Espaços e geometria", onde podemos utilizar da interação de preenchimento dos vértices. Escolhemos para o modelo de objeto 3D um dragão e adicionamos ao mesmo uma textura "Black Metal", na qual readaptamos com a coloração do objeto para dar o aspecto metálico requerido. Por fim deixamos à disposição do usuário o manuseio de translação do objeto além do preenchimento e despreenchimento das aproximadas 70000 vértices do objeto.
 
 
 
