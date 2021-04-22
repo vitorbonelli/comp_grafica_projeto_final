@@ -69,6 +69,12 @@ void OpenGLWindow::loadModel(std::string_view path) {
   m_Kd = m_model.getKd();
   m_Ks = m_model.getKs();
   m_shininess = m_model.getShininess();
+
+  m_Ka = glm::vec4(1,.78,.09, 0);
+  m_Kd = glm::vec4(1,.78,.09, 0);
+  m_Ks = m_model.getKs();
+  m_shininess = 25.0f;
+
 }
 
 void OpenGLWindow::paintGL() {
@@ -198,14 +204,14 @@ void OpenGLWindow::paintUI() {
                      "%d triangles");
     ImGui::PopItemWidth();
 
-    static bool faceCulling{};
-    ImGui::Checkbox("Back-face culling", &faceCulling);
+    //static bool faceCulling{};
+    //ImGui::Checkbox("Back-face culling", &faceCulling);
 
-    if (faceCulling) {
+    //if (faceCulling) {
       glEnable(GL_CULL_FACE);
-    } else {
-      glDisable(GL_CULL_FACE);
-    }
+    //} else {
+    //   glDisable(GL_CULL_FACE);
+    // }
 
     // CW/CCW combo box
     {
@@ -324,11 +330,11 @@ void OpenGLWindow::paintUI() {
     ImGui::Text("Light properties");
 
     // Slider to control light properties
-    ImGui::PushItemWidth(widgetSize.x - 36);
-    ImGui::ColorEdit3("Ia", &m_Ia.x, ImGuiColorEditFlags_Float);
-    ImGui::ColorEdit3("Id", &m_Id.x, ImGuiColorEditFlags_Float);
-    ImGui::ColorEdit3("Is", &m_Is.x, ImGuiColorEditFlags_Float);
-    ImGui::PopItemWidth();
+    // ImGui::PushItemWidth(widgetSize.x - 36);
+    // ImGui::ColorEdit3("Ia", &m_Ia.x, ImGuiColorEditFlags_Float);
+    // ImGui::ColorEdit3("Id", &m_Id.x, ImGuiColorEditFlags_Float);
+    // ImGui::ColorEdit3("Is", &m_Is.x, ImGuiColorEditFlags_Float);
+    // ImGui::PopItemWidth();
 
     ImGui::Spacing();
 
@@ -342,9 +348,9 @@ void OpenGLWindow::paintUI() {
     ImGui::PopItemWidth();
 
     // Slider to control the specular shininess
-    ImGui::PushItemWidth(widgetSize.x - 16);
-    ImGui::SliderFloat("", &m_shininess, 0.0f, 500.0f, "shininess: %.1f");
-    ImGui::PopItemWidth();
+    // ImGui::PushItemWidth(widgetSize.x - 16);
+    // ImGui::SliderFloat("", &m_shininess, 0.0f, 500.0f, "shininess: %.1f");
+    // ImGui::PopItemWidth();
 
     ImGui::End();
   }
