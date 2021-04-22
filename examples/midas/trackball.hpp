@@ -16,7 +16,7 @@ class TrackBall {
   void setVelocity(float velocity) { m_velocity = velocity; }
 
  private:
-  const float m_maxVelocity{glm::radians(720.0f / 1000.0f)};
+  const float m_maxVelocity{glm::radians(720.0f / 10000.0f)};
 
   glm::vec3 m_axis{1.0f};
   float m_velocity{};
