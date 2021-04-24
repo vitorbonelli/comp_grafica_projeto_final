@@ -14,12 +14,12 @@ abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o
  ../abcg/external/gsl/span_ext
  ../abcg/external/gsl/string_span
  ../abcg/external/tiny_obj_loader.h
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_application.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_application.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_external.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglwindow.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_application.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_application.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_external.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglwindow.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -72,12 +72,12 @@ abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o
  /usr/include/SDL2/begin_code.h
  /usr/include/SDL2/close_code.h
 abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
 abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_external.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_external.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -175,10 +175,10 @@ abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o
  ../abcg/external/gsl/span
  ../abcg/external/gsl/span_ext
  ../abcg/external/gsl/string_span
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_external.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_image.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_image.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_external.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_image.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_image.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -231,10 +231,10 @@ abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o
  /usr/include/SDL2/begin_code.h
  /usr/include/SDL2/close_code.h
 abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_external.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglfunctions.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglfunctions.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_external.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglfunctions.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglfunctions.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -291,15 +291,15 @@ abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o
  ../abcg/external/imgui/imgui.h
  ../abcg/external/imgui/imgui_impl_opengl3.h
  ../abcg/external/imgui/imgui_impl_sdl.h
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_application.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_embeddedfonts.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_external.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglfunctions.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglwindow.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglwindow.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_string.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_application.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_embeddedfonts.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_external.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglfunctions.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglwindow.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglwindow.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_string.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -351,8 +351,8 @@ abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o
  /usr/include/SDL2/begin_code.h
  /usr/include/SDL2/close_code.h
 abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_string.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_string.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_string.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_string.hpp
 abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o
  ../abcg/external/glm/common.hpp
  ../abcg/external/glm/detail/_fixes.hpp
@@ -548,6 +548,6 @@ abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o
  ../abcg/external/glm/vec3.hpp
  ../abcg/external/glm/vec4.hpp
  ../abcg/external/glm/vector_relational.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_trackball.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_trackball.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_trackball.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_trackball.hpp

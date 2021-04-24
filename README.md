@@ -1,10 +1,16 @@
+
 # *Projeto Final - Dragão Midas*
 
-Neste projeto focamos em criar um programa interativo inspirado no coelho 3D apresentado no tópico "Espaços e geometria", onde podemos utilizar da interação de preenchimento dos vértices. Escolhemos para o modelo de objeto 3D um dragão e adicionamos ao mesmo uma textura "Black Metal", na qual readaptamos com a coloração do objeto para dar o aspecto metálico requerido. Por fim deixamos à disposição do usuário o manuseio de translação do objeto além do preenchimento e despreenchimento das aproximadas 47794 vértices do objeto.
+## ✅Sobre o projeto
+Neste projeto focamos em criar um programa interativo inspirado no coelho 3D apresentado no tópico "Espaços e geometria", onde podemos utilizar da interação de preenchimento dos vértices. 
 
+Escolhemos para o modelo de objeto 3D um dragão e adicionamos ao mesmo uma textura "Black Metal", na qual readaptamos com a coloração do objeto para dar o aspecto metálico requerido. 
 
+O programa posssui a caixa de selação "Toque de Midas", a qual transforma a coloração inicialmente prateada do dragão, obtida com a combinação da coloração base do objeto com a textura metálica, para uma coloração dourada.
 
-Nome e RA dos desenvolvedores:
+Por fim deixamos à disposição do usuário o manuseio de translação do objeto além do preenchimento e despreenchimento das aproximadas 47794 vértices do objeto.
+
+## Nome e RA dos desenvolvedores:
 			
 	* Nome: Caio Augusto dos Santos Marques
 	* RA: 11074813
@@ -12,21 +18,23 @@ Nome e RA dos desenvolvedores:
 	* Nome: Vitor Cesar Cota Bonelli
 	* RA: 11009113
 
-Principais detalhes sobre o projeto
+## Principais detalhes sobre o projeto
 			
 	* Bibliotecas OpenGL & ABCg
 	* Linguagem de programação: C++
 	
 	Fontes:
-	*  Imagem do dragão 3D: http://graphics.stanford.edu/data/3Dscanrep/dragon.jpg
+	*  Imagem do Dragão 3D: http://graphics.stanford.edu/data/3Dscanrep/dragon.jpg
 	*  Demais modelos e inspirações: http://graphics.stanford.edu/data/3Dscanrep/ 
 	*  Textura "Black Metal": https://texturebox.com/black-metal-texture-001
+	* Conversor de .ply para .obj: https://anyconv.com/pt/conversor-de-ply-para-obj/
   
 
-# *Como utilizar*
+## *Como utilizar*
 
 1. Acesse https://vitorbonelli.github.io/comp_grafica_projeto_final/midas/
-2. Interaja com o Objeto 3D
+2. Interaja com o Objeto 3D utilizando o mouse (clique e arraste).
+3. Acione o "Toque de Midas" para o dragão tornar-se dourado.
 
 Para executar o projeto localmente em sua maquina, é preciso seguir os seguintes procedimentos
 ```

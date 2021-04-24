@@ -1,4 +1,4 @@
-# Install script for directory: /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src
+# Install script for directory: /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

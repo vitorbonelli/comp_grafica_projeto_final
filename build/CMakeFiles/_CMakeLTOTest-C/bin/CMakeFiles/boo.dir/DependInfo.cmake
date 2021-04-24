@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/main.c" "/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/main.c" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake"
+  "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
