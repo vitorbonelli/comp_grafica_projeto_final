@@ -6,5 +6,5 @@ CXX_FLAGS = -g -flto -fno-fat-lto-objects
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui 
+CXX_INCLUDES = -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui 
 

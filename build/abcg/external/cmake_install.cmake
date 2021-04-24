@@ -1,4 +1,4 @@
-# Install script for directory: /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external
+# Install script for directory: /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui/cmake_install.cmake")
-  include("/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/cppitertools/cmake_install.cmake")
-  include("/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/fmt/cmake_install.cmake")
-  include("/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/glm/cmake_install.cmake")
-  include("/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/gsl/cmake_install.cmake")
+  include("/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui/cmake_install.cmake")
+  include("/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/cppitertools/cmake_install.cmake")
+  include("/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/fmt/cmake_install.cmake")
+  include("/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/glm/cmake_install.cmake")
+  include("/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/gsl/cmake_install.cmake")
 
 endif()
 

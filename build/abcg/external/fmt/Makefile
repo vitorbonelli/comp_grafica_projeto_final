@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final
+CMAKE_SOURCE_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final/build
+CMAKE_BINARY_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles /home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/fmt/CMakeFiles/progress.marks
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles /home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/fmt/CMakeFiles/progress.marks
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/clean
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/preinstall
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/preinstall
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 abcg/external/fmt/CMakeFiles/fmt.dir/rule:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/CMakeFiles/fmt.dir/rule
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/CMakeFiles/fmt.dir/rule
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ fmt: abcg/external/fmt/CMakeFiles/fmt.dir/rule
 
 # fast build rule for target.
 fmt/fast:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/build
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
 
 format.o: format.cc.o
@@ -131,7 +131,7 @@ format.o: format.cc.o
 
 # target to build an object file
 format.cc.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o
 .PHONY : format.cc.o
 
 format.i: format.cc.i
@@ -140,7 +140,7 @@ format.i: format.cc.i
 
 # target to preprocess a source file
 format.cc.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.i
 .PHONY : format.cc.i
 
 format.s: format.cc.s
@@ -149,7 +149,7 @@ format.s: format.cc.s
 
 # target to generate assembly for a file
 format.cc.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.s
 .PHONY : format.cc.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

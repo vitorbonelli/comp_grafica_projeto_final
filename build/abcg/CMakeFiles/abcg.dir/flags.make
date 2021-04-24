@@ -6,5 +6,5 @@ CXX_FLAGS = -g -flto -fno-fat-lto-objects   -std=gnu++2a
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external 
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external 
 

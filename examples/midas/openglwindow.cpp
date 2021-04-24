@@ -70,10 +70,10 @@ void OpenGLWindow::loadModel(std::string_view path) {
   m_Ks = m_model.getKs();
   m_shininess = m_model.getShininess();
 
-  m_Ka = glm::vec4(1,.78,.09, 0);
-  m_Kd = glm::vec4(1,.78,.09, 0);
-  m_Ks = m_model.getKs();
-  m_shininess = 25.0f;
+  // m_Ka = glm::vec4(1,.78,.09, 0);
+  // m_Kd = glm::vec4(1,.78,.09, 0);
+  // m_Ks = m_model.getKs();
+  // m_shininess = 25.0f;
 
 }
 
@@ -177,23 +177,23 @@ void OpenGLWindow::paintUI() {
     ImGui::Begin("Widget window", nullptr, flags);
 
     // Menu
-    {
-      bool loadModel{};
-      bool loadDiffMap{};
-      bool loadNormalMap{};
-      if (ImGui::BeginMenuBar()) {
-        if (ImGui::BeginMenu("File")) {
-          ImGui::MenuItem("Load 3D Model...", nullptr, &loadModel);
-          ImGui::MenuItem("Load Diffuse Map...", nullptr, &loadDiffMap);
-          ImGui::MenuItem("Load Normal Map...", nullptr, &loadNormalMap);
-          ImGui::EndMenu();
-        }
-        ImGui::EndMenuBar();
-      }
-      if (loadModel) fileDialogModel.Open();
-      if (loadDiffMap) fileDialogDiffuseMap.Open();
-      if (loadNormalMap) fileDialogNormalMap.Open();
-    }
+    // {
+    //   bool loadModel{};
+    //   bool loadDiffMap{};
+    //   bool loadNormalMap{};
+    //   if (ImGui::BeginMenuBar()) {
+    //     if (ImGui::BeginMenu("File")) {
+    //       ImGui::MenuItem("Load 3D Model...", nullptr, &loadModel);
+    //       ImGui::MenuItem("Load Diffuse Map...", nullptr, &loadDiffMap);
+    //       ImGui::MenuItem("Load Normal Map...", nullptr, &loadNormalMap);
+    //       ImGui::EndMenu();
+    //     }
+    //     ImGui::EndMenuBar();
+    //   }
+    //   if (loadModel) fileDialogModel.Open();
+    //   if (loadDiffMap) fileDialogDiffuseMap.Open();
+    //   if (loadNormalMap) fileDialogNormalMap.Open();
+    // }
 
     // Slider will be stretched horizontally
     ImGui::PushItemWidth(widgetSize.x - 16);
@@ -201,16 +201,32 @@ void OpenGLWindow::paintUI() {
                      "%d triangles");
     ImGui::PopItemWidth();
 
+    static bool toqueDeMidas{};
+    ImGui::Checkbox("Toque de Midas", &toqueDeMidas);
+    // ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "Back-face culling");
+    if (toqueDeMidas) {
+        m_Ka = glm::vec4(1,.78,.09, 0);
+        m_Kd = glm::vec4(1,.78,.09, 0);
+        m_Ks = m_model.getKs();
+        m_shininess = 25.0f;
+    } else {
+        m_Ka = m_model.getKa();
+        m_Kd = m_model.getKd();
+        m_Ks = m_model.getKs();
+        m_shininess = m_model.getShininess();
+    }
+
+
     //static bool faceCulling{};
     //ImGui::Checkbox("Back-face culling", &faceCulling);
-
+    ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "Back-face culling");
     //if (faceCulling) {
       glEnable(GL_CULL_FACE);
     //} else {
     //   glDisable(GL_CULL_FACE);
     // }
 
-    // CW/CCW combo box
+    //CW/CCW combo box
     {
       static std::size_t currentIndex{};
       std::vector<std::string> comboItems{"CCW"};

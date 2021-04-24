@@ -204,10 +204,10 @@ examples/midas/CMakeFiles/midas.dir/main.cpp.o
  ../abcg/external/glm/vec3.hpp
  ../abcg/external/glm/vec4.hpp
  ../abcg/external/glm/vector_relational.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/main.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/openglwindow.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/main.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -514,8 +514,8 @@ examples/midas/CMakeFiles/midas.dir/model.cpp.o
  ../abcg/external/glm/vec4.hpp
  ../abcg/external/glm/vector_relational.hpp
  ../abcg/external/tiny_obj_loader.h
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -806,11 +806,11 @@ examples/midas/CMakeFiles/midas.dir/openglwindow.cpp.o
  ../abcg/external/glm/vector_relational.hpp
  ../abcg/external/imgui/imconfig.h
  ../abcg/external/imgui/imgui.h
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/imfilebrowser.h
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/openglwindow.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/openglwindow.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/imfilebrowser.h
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
@@ -1065,8 +1065,8 @@ examples/midas/CMakeFiles/midas.dir/trackball.cpp.o
  ../abcg/external/glm/vec3.hpp
  ../abcg/external/glm/vec4.hpp
  ../abcg/external/glm/vector_relational.hpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.cpp
- /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.hpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.cpp
+ /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.hpp
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h

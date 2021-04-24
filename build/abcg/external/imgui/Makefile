@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final
+CMAKE_SOURCE_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final/build
+CMAKE_BINARY_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles /home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui/CMakeFiles/progress.marks
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles /home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui/CMakeFiles/progress.marks
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/clean
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/preinstall
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/preinstall
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 abcg/external/imgui/CMakeFiles/imgui.dir/rule:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/CMakeFiles/imgui.dir/rule
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/CMakeFiles/imgui.dir/rule
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ imgui: abcg/external/imgui/CMakeFiles/imgui.dir/rule
 
 # fast build rule for target.
 imgui/fast:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/build
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
 imgui.o: imgui.cpp.o
@@ -131,7 +131,7 @@ imgui.o: imgui.cpp.o
 
 # target to build an object file
 imgui.cpp.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
 .PHONY : imgui.cpp.o
 
 imgui.i: imgui.cpp.i
@@ -140,7 +140,7 @@ imgui.i: imgui.cpp.i
 
 # target to preprocess a source file
 imgui.cpp.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.i
 .PHONY : imgui.cpp.i
 
 imgui.s: imgui.cpp.s
@@ -149,7 +149,7 @@ imgui.s: imgui.cpp.s
 
 # target to generate assembly for a file
 imgui.cpp.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
 .PHONY : imgui.cpp.s
 
 imgui_demo.o: imgui_demo.cpp.o
@@ -158,7 +158,7 @@ imgui_demo.o: imgui_demo.cpp.o
 
 # target to build an object file
 imgui_demo.cpp.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
 .PHONY : imgui_demo.cpp.o
 
 imgui_demo.i: imgui_demo.cpp.i
@@ -167,7 +167,7 @@ imgui_demo.i: imgui_demo.cpp.i
 
 # target to preprocess a source file
 imgui_demo.cpp.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i
 .PHONY : imgui_demo.cpp.i
 
 imgui_demo.s: imgui_demo.cpp.s
@@ -176,7 +176,7 @@ imgui_demo.s: imgui_demo.cpp.s
 
 # target to generate assembly for a file
 imgui_demo.cpp.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s
 .PHONY : imgui_demo.cpp.s
 
 imgui_draw.o: imgui_draw.cpp.o
@@ -185,7 +185,7 @@ imgui_draw.o: imgui_draw.cpp.o
 
 # target to build an object file
 imgui_draw.cpp.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
 .PHONY : imgui_draw.cpp.o
 
 imgui_draw.i: imgui_draw.cpp.i
@@ -194,7 +194,7 @@ imgui_draw.i: imgui_draw.cpp.i
 
 # target to preprocess a source file
 imgui_draw.cpp.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i
 .PHONY : imgui_draw.cpp.i
 
 imgui_draw.s: imgui_draw.cpp.s
@@ -203,7 +203,7 @@ imgui_draw.s: imgui_draw.cpp.s
 
 # target to generate assembly for a file
 imgui_draw.cpp.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s
 .PHONY : imgui_draw.cpp.s
 
 imgui_impl_opengl3.o: imgui_impl_opengl3.cpp.o
@@ -212,7 +212,7 @@ imgui_impl_opengl3.o: imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 imgui_impl_opengl3.cpp.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o
 .PHONY : imgui_impl_opengl3.cpp.o
 
 imgui_impl_opengl3.i: imgui_impl_opengl3.cpp.i
@@ -221,7 +221,7 @@ imgui_impl_opengl3.i: imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 imgui_impl_opengl3.cpp.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.i
 .PHONY : imgui_impl_opengl3.cpp.i
 
 imgui_impl_opengl3.s: imgui_impl_opengl3.cpp.s
@@ -230,7 +230,7 @@ imgui_impl_opengl3.s: imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 imgui_impl_opengl3.cpp.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.s
 .PHONY : imgui_impl_opengl3.cpp.s
 
 imgui_impl_sdl.o: imgui_impl_sdl.cpp.o
@@ -239,7 +239,7 @@ imgui_impl_sdl.o: imgui_impl_sdl.cpp.o
 
 # target to build an object file
 imgui_impl_sdl.cpp.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o
 .PHONY : imgui_impl_sdl.cpp.o
 
 imgui_impl_sdl.i: imgui_impl_sdl.cpp.i
@@ -248,7 +248,7 @@ imgui_impl_sdl.i: imgui_impl_sdl.cpp.i
 
 # target to preprocess a source file
 imgui_impl_sdl.cpp.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.i
 .PHONY : imgui_impl_sdl.cpp.i
 
 imgui_impl_sdl.s: imgui_impl_sdl.cpp.s
@@ -257,7 +257,7 @@ imgui_impl_sdl.s: imgui_impl_sdl.cpp.s
 
 # target to generate assembly for a file
 imgui_impl_sdl.cpp.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.s
 .PHONY : imgui_impl_sdl.cpp.s
 
 imgui_widgets.o: imgui_widgets.cpp.o
@@ -266,7 +266,7 @@ imgui_widgets.o: imgui_widgets.cpp.o
 
 # target to build an object file
 imgui_widgets.cpp.o:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
 .PHONY : imgui_widgets.cpp.o
 
 imgui_widgets.i: imgui_widgets.cpp.i
@@ -275,7 +275,7 @@ imgui_widgets.i: imgui_widgets.cpp.i
 
 # target to preprocess a source file
 imgui_widgets.cpp.i:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i
 .PHONY : imgui_widgets.cpp.i
 
 imgui_widgets.s: imgui_widgets.cpp.s
@@ -284,7 +284,7 @@ imgui_widgets.s: imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 imgui_widgets.cpp.s:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s
 .PHONY : imgui_widgets.cpp.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
