@@ -1,4 +1,4 @@
-# Install script for directory: /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas
+# Install script for directory: /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

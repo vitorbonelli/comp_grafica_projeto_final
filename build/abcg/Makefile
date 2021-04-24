@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final
+CMAKE_SOURCE_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final/build
+CMAKE_BINARY_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles /home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/CMakeFiles/progress.marks
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles /home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/CMakeFiles/progress.marks
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/clean
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/preinstall
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/preinstall
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 abcg/CMakeFiles/abcg.dir/rule:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/CMakeFiles/abcg.dir/rule
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f CMakeFiles/Makefile2 abcg/CMakeFiles/abcg.dir/rule
 .PHONY : abcg/CMakeFiles/abcg.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ abcg: abcg/CMakeFiles/abcg.dir/rule
 
 # fast build rule for target.
 abcg/fast:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/build
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/build
 .PHONY : abcg/fast
 
 abcg_application.o: abcg_application.cpp.o
@@ -131,7 +131,7 @@ abcg_application.o: abcg_application.cpp.o
 
 # target to build an object file
 abcg_application.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o
 .PHONY : abcg_application.cpp.o
 
 abcg_application.i: abcg_application.cpp.i
@@ -140,7 +140,7 @@ abcg_application.i: abcg_application.cpp.i
 
 # target to preprocess a source file
 abcg_application.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_application.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_application.cpp.i
 .PHONY : abcg_application.cpp.i
 
 abcg_application.s: abcg_application.cpp.s
@@ -149,7 +149,7 @@ abcg_application.s: abcg_application.cpp.s
 
 # target to generate assembly for a file
 abcg_application.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_application.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_application.cpp.s
 .PHONY : abcg_application.cpp.s
 
 abcg_elapsedtimer.o: abcg_elapsedtimer.cpp.o
@@ -158,7 +158,7 @@ abcg_elapsedtimer.o: abcg_elapsedtimer.cpp.o
 
 # target to build an object file
 abcg_elapsedtimer.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o
 .PHONY : abcg_elapsedtimer.cpp.o
 
 abcg_elapsedtimer.i: abcg_elapsedtimer.cpp.i
@@ -167,7 +167,7 @@ abcg_elapsedtimer.i: abcg_elapsedtimer.cpp.i
 
 # target to preprocess a source file
 abcg_elapsedtimer.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.i
 .PHONY : abcg_elapsedtimer.cpp.i
 
 abcg_elapsedtimer.s: abcg_elapsedtimer.cpp.s
@@ -176,7 +176,7 @@ abcg_elapsedtimer.s: abcg_elapsedtimer.cpp.s
 
 # target to generate assembly for a file
 abcg_elapsedtimer.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.s
 .PHONY : abcg_elapsedtimer.cpp.s
 
 abcg_exception.o: abcg_exception.cpp.o
@@ -185,7 +185,7 @@ abcg_exception.o: abcg_exception.cpp.o
 
 # target to build an object file
 abcg_exception.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o
 .PHONY : abcg_exception.cpp.o
 
 abcg_exception.i: abcg_exception.cpp.i
@@ -194,7 +194,7 @@ abcg_exception.i: abcg_exception.cpp.i
 
 # target to preprocess a source file
 abcg_exception.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.i
 .PHONY : abcg_exception.cpp.i
 
 abcg_exception.s: abcg_exception.cpp.s
@@ -203,7 +203,7 @@ abcg_exception.s: abcg_exception.cpp.s
 
 # target to generate assembly for a file
 abcg_exception.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.s
 .PHONY : abcg_exception.cpp.s
 
 abcg_image.o: abcg_image.cpp.o
@@ -212,7 +212,7 @@ abcg_image.o: abcg_image.cpp.o
 
 # target to build an object file
 abcg_image.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o
 .PHONY : abcg_image.cpp.o
 
 abcg_image.i: abcg_image.cpp.i
@@ -221,7 +221,7 @@ abcg_image.i: abcg_image.cpp.i
 
 # target to preprocess a source file
 abcg_image.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_image.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_image.cpp.i
 .PHONY : abcg_image.cpp.i
 
 abcg_image.s: abcg_image.cpp.s
@@ -230,7 +230,7 @@ abcg_image.s: abcg_image.cpp.s
 
 # target to generate assembly for a file
 abcg_image.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_image.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_image.cpp.s
 .PHONY : abcg_image.cpp.s
 
 abcg_openglfunctions.o: abcg_openglfunctions.cpp.o
@@ -239,7 +239,7 @@ abcg_openglfunctions.o: abcg_openglfunctions.cpp.o
 
 # target to build an object file
 abcg_openglfunctions.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o
 .PHONY : abcg_openglfunctions.cpp.o
 
 abcg_openglfunctions.i: abcg_openglfunctions.cpp.i
@@ -248,7 +248,7 @@ abcg_openglfunctions.i: abcg_openglfunctions.cpp.i
 
 # target to preprocess a source file
 abcg_openglfunctions.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.i
 .PHONY : abcg_openglfunctions.cpp.i
 
 abcg_openglfunctions.s: abcg_openglfunctions.cpp.s
@@ -257,7 +257,7 @@ abcg_openglfunctions.s: abcg_openglfunctions.cpp.s
 
 # target to generate assembly for a file
 abcg_openglfunctions.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.s
 .PHONY : abcg_openglfunctions.cpp.s
 
 abcg_openglwindow.o: abcg_openglwindow.cpp.o
@@ -266,7 +266,7 @@ abcg_openglwindow.o: abcg_openglwindow.cpp.o
 
 # target to build an object file
 abcg_openglwindow.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o
 .PHONY : abcg_openglwindow.cpp.o
 
 abcg_openglwindow.i: abcg_openglwindow.cpp.i
@@ -275,7 +275,7 @@ abcg_openglwindow.i: abcg_openglwindow.cpp.i
 
 # target to preprocess a source file
 abcg_openglwindow.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.i
 .PHONY : abcg_openglwindow.cpp.i
 
 abcg_openglwindow.s: abcg_openglwindow.cpp.s
@@ -284,7 +284,7 @@ abcg_openglwindow.s: abcg_openglwindow.cpp.s
 
 # target to generate assembly for a file
 abcg_openglwindow.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.s
 .PHONY : abcg_openglwindow.cpp.s
 
 abcg_string.o: abcg_string.cpp.o
@@ -293,7 +293,7 @@ abcg_string.o: abcg_string.cpp.o
 
 # target to build an object file
 abcg_string.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o
 .PHONY : abcg_string.cpp.o
 
 abcg_string.i: abcg_string.cpp.i
@@ -302,7 +302,7 @@ abcg_string.i: abcg_string.cpp.i
 
 # target to preprocess a source file
 abcg_string.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_string.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_string.cpp.i
 .PHONY : abcg_string.cpp.i
 
 abcg_string.s: abcg_string.cpp.s
@@ -311,7 +311,7 @@ abcg_string.s: abcg_string.cpp.s
 
 # target to generate assembly for a file
 abcg_string.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_string.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_string.cpp.s
 .PHONY : abcg_string.cpp.s
 
 abcg_trackball.o: abcg_trackball.cpp.o
@@ -320,7 +320,7 @@ abcg_trackball.o: abcg_trackball.cpp.o
 
 # target to build an object file
 abcg_trackball.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o
 .PHONY : abcg_trackball.cpp.o
 
 abcg_trackball.i: abcg_trackball.cpp.i
@@ -329,7 +329,7 @@ abcg_trackball.i: abcg_trackball.cpp.i
 
 # target to preprocess a source file
 abcg_trackball.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.i
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.i
 .PHONY : abcg_trackball.cpp.i
 
 abcg_trackball.s: abcg_trackball.cpp.s
@@ -338,7 +338,7 @@ abcg_trackball.s: abcg_trackball.cpp.s
 
 # target to generate assembly for a file
 abcg_trackball.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.s
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.s
 .PHONY : abcg_trackball.cpp.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pardomarques/Documents/comp_grafica_projeto_final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

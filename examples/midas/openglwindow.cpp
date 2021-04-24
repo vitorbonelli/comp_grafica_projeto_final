@@ -164,7 +164,7 @@ void OpenGLWindow::paintUI() {
 
   // Create main window widget
   {
-    auto widgetSize{ImVec2(222, 130)};
+    auto widgetSize{ImVec2(250, 150)};
 
     if (!m_model.isUVMapped()) {
       // Add extra space for static text
@@ -175,25 +175,6 @@ void OpenGLWindow::paintUI() {
     ImGui::SetNextWindowSize(widgetSize);
     auto flags{ImGuiWindowFlags_MenuBar | ImGuiWindowFlags_NoDecoration};
     ImGui::Begin("Widget window", nullptr, flags);
-
-    // Menu
-    // {
-    //   bool loadModel{};
-    //   bool loadDiffMap{};
-    //   bool loadNormalMap{};
-    //   if (ImGui::BeginMenuBar()) {
-    //     if (ImGui::BeginMenu("File")) {
-    //       ImGui::MenuItem("Load 3D Model...", nullptr, &loadModel);
-    //       ImGui::MenuItem("Load Diffuse Map...", nullptr, &loadDiffMap);
-    //       ImGui::MenuItem("Load Normal Map...", nullptr, &loadNormalMap);
-    //       ImGui::EndMenu();
-    //     }
-    //     ImGui::EndMenuBar();
-    //   }
-    //   if (loadModel) fileDialogModel.Open();
-    //   if (loadDiffMap) fileDialogDiffuseMap.Open();
-    //   if (loadNormalMap) fileDialogNormalMap.Open();
-    // }
 
     // Slider will be stretched horizontally
     ImGui::PushItemWidth(widgetSize.x - 16);
@@ -218,76 +199,29 @@ void OpenGLWindow::paintUI() {
 
 
     //static bool faceCulling{};
-    //ImGui::Checkbox("Back-face culling", &faceCulling);
-    ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "Back-face culling");
-    //if (faceCulling) {
-      glEnable(GL_CULL_FACE);
-    //} else {
-    //   glDisable(GL_CULL_FACE);
-    // }
 
-    //CW/CCW combo box
-    {
-      static std::size_t currentIndex{};
-      std::vector<std::string> comboItems{"CCW"};
+    ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "CCW");
+    ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "Perspective");
+    ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "Texture");
+    ImGui::TextColored(ImVec4(1.00, 0.78, 0.09, 1), "Triplanar");
 
-        for (auto index : iter::range(comboItems.size())) {
-          const bool isSelected{currentIndex == index};
-          if (ImGui::Selectable(comboItems.at(index).c_str(), isSelected))
-            currentIndex = index;
-          if (isSelected) ImGui::SetItemDefaultFocus();
-        }
+    glEnable(GL_CULL_FACE);
 
-      glFrontFace(GL_CCW);
-    }
+    glFrontFace(GL_CCW);
 
-    // Projection combo box
-    {
-      static std::size_t currentIndex{};
-      std::vector<std::string> comboItems{"Perspective"};
-
-        for (auto index : iter::range(comboItems.size())) {
-          const bool isSelected{currentIndex == index};
-          if (ImGui::Selectable(comboItems.at(index).c_str(), isSelected))
-            currentIndex = index;
-          if (isSelected) ImGui::SetItemDefaultFocus();
-        }
-
-      auto aspect{static_cast<float>(m_viewportWidth) /
+    auto aspect{static_cast<float>(m_viewportWidth) /
                   static_cast<float>(m_viewportHeight)};
-      m_projMatrix = glm::perspective(glm::radians(45.0f), aspect, 0.1f, 5.0f);
-    }
+    m_projMatrix = glm::perspective(glm::radians(45.0f), aspect, 0.1f, 5.0f);
+    // }
 
     // Shader combo box
     {
       static std::size_t currentIndex{};
 
-        for (auto index : iter::range(m_shaderNames.size())) {
-          const bool isSelected{currentIndex == index};
-          if (ImGui::Selectable(m_shaderNames.at(index), isSelected))
-            currentIndex = index;
-          if (isSelected) ImGui::SetItemDefaultFocus();
-        }
-
-      // Set up VAO if shader program has changed
       if (static_cast<int>(currentIndex) != m_currentProgramIndex) {
         m_currentProgramIndex = currentIndex;
         m_model.setupVAO(m_programs.at(m_currentProgramIndex));
       }
-    }
-
-    // UV mapping box
-    {
-      std::vector<std::string> comboItems{"Triplanar"};
-
-      if (m_model.isUVMapped()) comboItems.emplace_back("From mesh");
-
-        for (auto index : iter::range(comboItems.size())) {
-          const bool isSelected{m_mappingMode == static_cast<int>(index)};
-          if (ImGui::Selectable(comboItems.at(index).c_str(), isSelected))
-            m_mappingMode = index;
-          if (isSelected) ImGui::SetItemDefaultFocus();
-        }
     }
 
     ImGui::End();

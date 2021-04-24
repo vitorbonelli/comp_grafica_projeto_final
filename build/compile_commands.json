@@ -1,97 +1,97 @@
 [
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_application.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_application.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_application.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_application.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_application.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_elapsedtimer.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_exception.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_exception.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_exception.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_image.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_image.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_image.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_image.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_image.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglfunctions.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglfunctions.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglfunctions.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglfunctions.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglwindow.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_openglwindow.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglwindow.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_openglwindow.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_string.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_string.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_string.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_string.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_string.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_trackball.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/abcg_trackball.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/abcg.dir/abcg_trackball.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_trackball.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/abcg_trackball.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_demo.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_demo.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_demo.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_demo.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_draw.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_draw.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_draw.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_draw.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_widgets.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_widgets.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_widgets.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_widgets.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_sdl.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_sdl.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_impl_sdl.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_sdl.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_sdl.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/imgui",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_opengl3.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_opengl3.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/imgui",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/opt/local/include -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui  -g -flto -fno-fat-lto-objects   -o CMakeFiles/imgui.dir/imgui_impl_opengl3.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui/imgui_impl_opengl3.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/fmt",
-  "command": "/usr/lib/ccache/c++   -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/fmt.dir/format.cc.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt/format.cc",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt/format.cc"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/abcg/external/fmt",
+  "command": "/usr/lib/ccache/c++   -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt  -g -flto -fno-fat-lto-objects   -std=gnu++2a -o CMakeFiles/fmt.dir/format.cc.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt/format.cc",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt/format.cc"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/main.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/main.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/main.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/main.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/main.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/main.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/model.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/model.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/model.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/model.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/openglwindow.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/openglwindow.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/openglwindow.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/openglwindow.cpp"
 },
 {
-  "directory": "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas",
-  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/gsl -I/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/trackball.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.cpp",
-  "file": "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.cpp"
+  "directory": "/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas",
+  "command": "/usr/lib/ccache/c++   -I/usr/include/SDL2 -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/cppitertools -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/fmt -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/glm/.. -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/gsl -I/home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external/imgui -isystem /home/pardomarques/Documents/comp_grafica_projeto_final/abcg/external  -g -flto -fno-fat-lto-objects   -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/midas.dir/trackball.cpp.o -c /home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.cpp",
+  "file": "/home/pardomarques/Documents/comp_grafica_projeto_final/examples/midas/trackball.cpp"
 }
 ]

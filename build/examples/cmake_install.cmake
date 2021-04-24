@@ -1,4 +1,4 @@
-# Install script for directory: /home/vbonelli/Projetos/comp_grafica_projeto_final/examples
+# Install script for directory: /home/pardomarques/Documents/comp_grafica_projeto_final/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/cmake_install.cmake")
+  include("/home/pardomarques/Documents/comp_grafica_projeto_final/build/examples/midas/cmake_install.cmake")
 
 endif()
 

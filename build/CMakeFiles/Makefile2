@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final
+CMAKE_SOURCE_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vbonelli/Projetos/comp_grafica_projeto_final/build
+CMAKE_BINARY_DIR = /home/pardomarques/Documents/comp_grafica_projeto_final/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -254,14 +254,14 @@ abcg/CMakeFiles/abcg.dir/all: abcg/external/imgui/CMakeFiles/imgui.dir/all
 abcg/CMakeFiles/abcg.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
 	$(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/depend
 	$(MAKE) -f abcg/CMakeFiles/abcg.dir/build.make abcg/CMakeFiles/abcg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target abcg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target abcg"
 .PHONY : abcg/CMakeFiles/abcg.dir/all
 
 # Build rule for subdir invocation for target.
 abcg/CMakeFiles/abcg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 abcg/CMakeFiles/abcg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : abcg/CMakeFiles/abcg.dir/rule
 
 # Convenience name for target.
@@ -281,14 +281,14 @@ abcg/CMakeFiles/abcg.dir/clean:
 abcg/external/imgui/CMakeFiles/imgui.dir/all:
 	$(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles --progress-num=12,13,14,15,16,17,18 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles --progress-num=12,13,14,15,16,17,18 "Built target imgui"
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
 abcg/external/imgui/CMakeFiles/imgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 abcg/external/imgui/CMakeFiles/imgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -308,14 +308,14 @@ abcg/external/imgui/CMakeFiles/imgui.dir/clean:
 abcg/external/fmt/CMakeFiles/fmt.dir/all:
 	$(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/depend
 	$(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles --progress-num=10,11 "Built target fmt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles --progress-num=10,11 "Built target fmt"
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/all
 
 # Build rule for subdir invocation for target.
 abcg/external/fmt/CMakeFiles/fmt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 abcg/external/fmt/CMakeFiles/fmt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/rule
 
 # Convenience name for target.
@@ -337,14 +337,14 @@ examples/midas/CMakeFiles/midas.dir/all: abcg/external/imgui/CMakeFiles/imgui.di
 examples/midas/CMakeFiles/midas.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
 	$(MAKE) -f examples/midas/CMakeFiles/midas.dir/build.make examples/midas/CMakeFiles/midas.dir/depend
 	$(MAKE) -f examples/midas/CMakeFiles/midas.dir/build.make examples/midas/CMakeFiles/midas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles --progress-num=19,20,21,22,23 "Built target midas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles --progress-num=19,20,21,22,23 "Built target midas"
 .PHONY : examples/midas/CMakeFiles/midas.dir/all
 
 # Build rule for subdir invocation for target.
 examples/midas/CMakeFiles/midas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 examples/midas/CMakeFiles/midas.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/Documents/comp_grafica_projeto_final/build/CMakeFiles 0
 .PHONY : examples/midas/CMakeFiles/midas.dir/rule
 
 # Convenience name for target.
