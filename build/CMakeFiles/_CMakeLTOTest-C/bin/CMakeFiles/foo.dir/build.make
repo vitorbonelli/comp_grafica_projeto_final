@@ -63,15 +63,15 @@ include CMakeFiles/foo.dir/flags.make
 CMakeFiles/foo.dir/foo.c.o: CMakeFiles/foo.dir/flags.make
 CMakeFiles/foo.dir/foo.c.o: /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/foo.dir/foo.c.o"
-	/usr/lib/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/foo.dir/foo.c.o   -c /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+	/home/vbonelli/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/foo.dir/foo.c.o   -c /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c
 
 CMakeFiles/foo.dir/foo.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/foo.dir/foo.c.i"
-	/usr/lib/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c > CMakeFiles/foo.dir/foo.c.i
+	/home/vbonelli/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c > CMakeFiles/foo.dir/foo.c.i
 
 CMakeFiles/foo.dir/foo.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/foo.dir/foo.c.s"
-	/usr/lib/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c -o CMakeFiles/foo.dir/foo.c.s
+	/home/vbonelli/emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vbonelli/Projetos/comp_grafica_projeto_final/build/CMakeFiles/_CMakeLTOTest-C/src/foo.c -o CMakeFiles/foo.dir/foo.c.s
 
 # Object files for target foo
 foo_OBJECTS = \

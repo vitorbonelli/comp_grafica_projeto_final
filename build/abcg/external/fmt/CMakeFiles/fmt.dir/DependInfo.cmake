@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vbonelli/Projetos/comp_grafica_projeto_final/abcg/external/fmt/format.cc" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/abcg/external/fmt/CMakeFiles/fmt.dir/format.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

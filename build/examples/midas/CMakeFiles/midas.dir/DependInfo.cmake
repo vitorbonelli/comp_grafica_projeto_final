@@ -9,11 +9,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/openglwindow.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/openglwindow.cpp.o"
   "/home/vbonelli/Projetos/comp_grafica_projeto_final/examples/midas/trackball.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto_final/build/examples/midas/CMakeFiles/midas.dir/trackball.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/SDL2"
   "../abcg"
   "../abcg/external/cppitertools"
   "../abcg/external/fmt"
